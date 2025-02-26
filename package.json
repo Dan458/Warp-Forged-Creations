@@ -2,7 +2,7 @@
   "name": "warpforged_creations",
   "type": "module",
   "version": "0.0.1",
-  "homepage": "https://Dan458.github.io/Warp-Forged-Creations/",
+  "homepage": "https://www.warpforgedcreations.co.uk",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",

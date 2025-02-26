@@ -1,0 +1,48 @@
+---
+import Particles from "../components/particles.astro";
+import SocialLinks from "../components/SocialLinks.astro";
+layout: "../layouts/Layout.astro";
+---
+
+<Particles />
+
+<!-- Logo Container -->
+<div class="logo-container">
+  <img src="/logo.png" alt="Site Logo" class="logo" />
+</div>
+
+<!-- Social Links Below Logo & Midway to Bottom -->
+<div class="social-links">
+  <SocialLinks />
+</div>
+
+<style>
+  /* Center the logo */
+  .logo-container {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .logo {
+    width: 400px;  /* Adjust size as needed */
+    height: auto;
+  }
+
+  /* Social Links: Midway Between Logo & Bottom */
+  .social-links {
+    position: absolute;
+    top: 90%; /* Adjust to move it up/down */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 20px;
+  }
+
+  /* Bigger Social Icons */
+  .social-links a {
+    font-size: 300px; /* Increase size */
+  }
+</style>

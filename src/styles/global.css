@@ -1,0 +1,20 @@
+.social-links {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    z-index: 10; /* Ensure it's on top of other elements */
+}
+
+.social-links a {
+    color: white; /* Make sure the icons are white or a visible color */
+    font-size: 30px; /* Increase size for better visibility */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    color: #ffcc00; /* Color when hovering */
+}

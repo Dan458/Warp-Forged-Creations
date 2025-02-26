@@ -1,0 +1,32 @@
+---
+import { Icon } from "astro-icon/components";
+---
+
+<div class="social-links">
+  <a href="https://www.facebook.com/profile.php?id=61572581197979" target="_blank" aria-label="Facebook">
+    <Icon name="fa6-brands:facebook" width="64" height="64" />
+  </a>
+  <a href="http://instagram.com/warpforged_creations" target="_blank" aria-label="Instagram">
+    <Icon name="fa6-brands:instagram" width="64" height="64" />
+  </a>
+  <!-- <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+    <Icon name="fa6-brands:youtube" width="64" height="64" />
+  </a>-->
+</div>
+
+<style>
+  .social-links {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 30px;
+  }
+
+  .social-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+  }
+</style>

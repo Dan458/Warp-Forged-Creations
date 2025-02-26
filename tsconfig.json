@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "types": ["./src/index.d.ts"]
+  },
+  "include": ["src"]
+}
